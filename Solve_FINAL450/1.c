@@ -7,8 +7,6 @@ void swap(int *a, int *b)
 	temp = *a;
 	*a = *b;
 	*b = temp;
-
-
 }
 
 void reverseArray(int *arr, int size)
@@ -22,7 +20,6 @@ void reverseArray(int *arr, int size)
 
 
 	}
-
 }
 
 
@@ -34,8 +31,6 @@ int main()
 
 	for(int i=0; i< 10; i++)
 		printf("%d, ", a[i]);
-
-
 }
 
 
