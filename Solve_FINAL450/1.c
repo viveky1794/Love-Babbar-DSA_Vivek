@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+int a[10] = {0,1,2,3,4,5,6,7,8,9};
 
 void swap(int *a, int *b)
 {
@@ -19,8 +20,6 @@ void reverseArray(int *arr, int size)
 	while( i < j )
 	{
 		swap( &arr[i++], &arr[j--]);
-
-
 	}
 
 }
@@ -28,7 +27,7 @@ void reverseArray(int *arr, int size)
 
 int main()
 {
-	int a[10] = {0,1,2,3,4,5,6,7,8,9};
+	
 	int size = sizeof(a)/sizeof(int);
 	reverseArray(a,size);
 
